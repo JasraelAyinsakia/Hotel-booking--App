@@ -36,3 +36,11 @@ class ReservationTicket:
 
 hotel1 = Hotel(hotel_id="188")
 hotel2 = Hotel(hotel_id="134")
+
+print(hotel1.name)
+print(hotel2.name)
+
+print(hotel1.watermark)
+print(hotel2.watermark)
+
+print(Hotel.watermark)
