@@ -1,7 +1,5 @@
 import pandas
 
-from main import hotel
-
 df = pandas.read_csv("hotels.csv", dtype={"id": str})
 
 class Hotel:
